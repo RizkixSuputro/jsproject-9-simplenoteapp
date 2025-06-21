@@ -6,10 +6,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <h1>Notes App</h1>
+      <form action="" id="note">
+        <input type="text" id="title" placeholder="title" required />
+        <textarea id="note-content" placeholder="content" required></textarea>
+        <button type="submit">Add Note</button>
+      </form>
+      <h1>Your Notes</h1>
+      <ul id="notelist"></ul>
+    </div>
+
     <script src="app.js"></script>
-    <script
-      src="https://kit.fontawesome.com/0461a3ee67.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
